@@ -1,0 +1,5 @@
+# Dependency directories
+node_modules/
+
+# For complete list of possible files you may want to ignore
+# https://github.com/github/gitignore/blob/master/Node.gitignore
