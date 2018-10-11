@@ -1,10 +1,5 @@
 const CronJob = require('cron').CronJob;
 
-// running total algorithm
-// add up to 15 random numbers between 10 and 100 
-// console.log the total
-// create a worker that will run once
-
 const getRandom = (min, max) => {
     return Math.floor(Math.random() * (max - min) + min);
 };
@@ -26,3 +21,7 @@ false,
 
 module.exports = adderWorker;
 
+// running total algorithm
+// add up to 15 random numbers between 10 and 100 
+// console.log the total
+// create a worker that will run once
